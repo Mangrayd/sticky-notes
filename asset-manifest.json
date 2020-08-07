@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/sticky-notes/static/css/main.8ae53a68.chunk.css",
+    "main.js": "/sticky-notes/static/js/main.b4002320.chunk.js",
+    "main.js.map": "/sticky-notes/static/js/main.b4002320.chunk.js.map",
+    "runtime-main.js": "/sticky-notes/static/js/runtime-main.cb183f1a.js",
+    "runtime-main.js.map": "/sticky-notes/static/js/runtime-main.cb183f1a.js.map",
+    "static/js/2.a284891a.chunk.js": "/sticky-notes/static/js/2.a284891a.chunk.js",
+    "static/js/2.a284891a.chunk.js.map": "/sticky-notes/static/js/2.a284891a.chunk.js.map",
+    "index.html": "/sticky-notes/index.html",
+    "precache-manifest.a658b8225fecbb6e0355596ad83999c6.js": "/sticky-notes/precache-manifest.a658b8225fecbb6e0355596ad83999c6.js",
+    "service-worker.js": "/sticky-notes/service-worker.js",
+    "static/css/main.8ae53a68.chunk.css.map": "/sticky-notes/static/css/main.8ae53a68.chunk.css.map",
+    "static/js/2.a284891a.chunk.js.LICENSE.txt": "/sticky-notes/static/js/2.a284891a.chunk.js.LICENSE.txt",
+    "static/media/drag.554f3a2b.svg": "/sticky-notes/static/media/drag.554f3a2b.svg",
+    "static/media/App.scss": "/sticky-notes/static/media/pattern.f49911d5.jpg",
+    "static/media/plus.b6106402.svg": "/sticky-notes/static/media/plus.b6106402.svg",
+    "static/media/trash.eef58ba5.svg": "/sticky-notes/static/media/trash.eef58ba5.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cb183f1a.js",
+    "static/js/2.a284891a.chunk.js",
+    "static/css/main.8ae53a68.chunk.css",
+    "static/js/main.b4002320.chunk.js"
+  ]
+}
