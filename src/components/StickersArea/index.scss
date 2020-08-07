@@ -1,0 +1,7 @@
+.stickersArea {
+  position: relative;
+  flex: 1 0 auto;
+  &__item {
+    position: absolute;
+  }
+}

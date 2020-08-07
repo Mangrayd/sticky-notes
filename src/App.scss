@@ -1,0 +1,77 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url("./assets/pattern.jpg");
+  background-position: 0 0;
+  height: 100vh;
+}
+#root {
+  height: 100%;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  width:100%;
+  height: 100%;
+  min-width: 1024px;
+  min-height: 768px;
+  overflow: hidden;
+}
+.main-header {
+  margin: 0;
+  background-color: rgba(255,255,255,0.8);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  & > h1 {
+    margin: 0;
+    font-size: 22px;
+    font-weight: 400;
+  }
+}
+.create-form {
+  display: flex;
+  align-items: center;
+}
+.createBtn {
+  cursor: pointer;
+  margin-left: 20px;
+  box-sizing: border-box;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #ff4848;
+  & > svg {
+    display: block;
+    fill: white;
+    width: 1em;
+    height: 1em;
+    font-size: 18px;
+  }
+}
+
+.trash {
+  z-index: 0;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: rgba(grey, 0.8);
+  display: flex;
+  & > svg {
+    display: block;
+    margin: auto;
+    fill: white;
+    width: 1em;
+    height: 1em;
+    font-size: 28px;
+  }
+  &.active {
+    background-color: rgba(#ff4848, 0.8);
+  }
+}
