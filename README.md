@@ -5,7 +5,7 @@
 
 LocalStorageService - works directly with storage 
 
-api - provides restAPI-like interface for vuex
+api - provides restAPI-like interface for Redux
 
 store - provide store actions and state to components 
 
